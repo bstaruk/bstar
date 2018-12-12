@@ -1,0 +1,14 @@
+{
+    "name": "bstar.pseudocontent",
+    "version": "0.0.1",
+    "author": "Brian Staruk <brian@staruk.me>",
+    "contributors": [{
+        "name": "Brian Staruk",
+        "email": "brian@staruk.me",
+        "url": "https://brian.staruk.me"
+    }],
+    "description": "Checks if an element has a pseudo element (:before or :after) with a specific content value.",
+    "homepage": "https://github.com/bstaruk/bstar",
+    "repository": "github:bstaruk/bstar",
+    "license": "MIT"
+}
