@@ -10,7 +10,7 @@ Returns the current vertical scroll offset, measured in pixels from the top of t
 ## Example Usage
 ```js
 import _ from 'lodash';
-import { getElementOffset, getScrollOffset } from './StickyTools';
+import { getElementOffset, getScrollOffset } from 'bstar.stickytools';
 
 const stickyElement = document.getElementById('sticky-element');
 let stickyElementOffset = getElementOffset(stickyElement);

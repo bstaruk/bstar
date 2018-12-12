@@ -5,7 +5,7 @@ Takes an object, loops through it, and returns `true` if any value in it is `nul
 ## Example Usage
 
 ```js
-import HasNull from './HasNull';
+import HasNull from 'bstar.hasnull';
 
 const ui = {
   closeButtons: document.getElementsByClassName('button--close'),

@@ -5,7 +5,7 @@ Checks if an element has a pseudo element (`:before` or `:after`) with a specifi
 ## Example Usage
 
 ```js
-import PseudoContent from './PseudoContent';
+import PseudoContent from 'bstar.pseudocontent';
 
 const ui = document.getElementById('example-element');
 
