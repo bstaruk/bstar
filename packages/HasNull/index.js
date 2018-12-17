@@ -1,12 +1,18 @@
-// checks if any value in an object is null
-function HasNull (obj) {
+"use strict";
+
+Object.defineProperty(exports, "__esModule", {
+  value: true
+});
+
+var HasNull = function HasNull(obj) {
   var objKeys = Object.keys(obj);
-  var i;
-  for (i = 0; i < objKeys.length; i++) {
-    if (obj[objKeys[i]] == null) { return true; }
+  for (var i = 0; i < objKeys.length; i++) {
+    if (obj[objKeys[i]] == null) {
+      return true;
+    }
   }
 
   return false;
-}
+};
 
-export default HasNull;
+exports.default = HasNull;
