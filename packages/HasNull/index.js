@@ -1,7 +1,7 @@
 // checks if any value in an object is null
 function HasNull (obj) {
   var objKeys = Object.keys(obj);
-  for (let i = 0; i < objKeys.length; i++) {
+  for (var i = 0; i < objKeys.length; i++) {
     if (obj[objKeys[i]] == null) { return true; }
   }
 
