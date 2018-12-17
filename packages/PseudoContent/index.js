@@ -1,8 +1,13 @@
-// check if pseudo element has specified content (responsive js via css)
-const PseudoContent = (el, pseudo, content) => {
+'use strict';
+
+Object.defineProperty(exports, "__esModule", {
+  value: true
+});
+
+var PseudoContent = function PseudoContent(el, pseudo, content) {
   if (['before', 'after'].indexOf(pseudo) === -1) return false;
-  const pseudoContent = window.getComputedStyle(el, `:${pseudo}`).content;
+  var pseudoContent = window.getComputedStyle(el, ':' + pseudo).content;
   return pseudoContent && pseudoContent.indexOf(content) !== -1;
 };
 
-export default PseudoContent;
+exports.default = PseudoContent;
