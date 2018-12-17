@@ -8,3 +8,5 @@ function HasNull (obj) {
 
   return false;
 }
+
+export default HasNull;
