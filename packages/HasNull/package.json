@@ -1,12 +1,14 @@
 {
   "name": "bstar.hasnull",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "author": "Brian Staruk <brian@staruk.me>",
-  "contributors": [{
-    "name": "Brian Staruk",
-    "email": "brian@staruk.me",
-    "url": "https://brian.staruk.me"
-  }],
+  "contributors": [
+    {
+      "name": "Brian Staruk",
+      "email": "brian@staruk.me",
+      "url": "https://brian.staruk.me"
+    }
+  ],
   "description": "Takes an object, loops through it, and returns `true` if any value in it is `null`.",
   "homepage": "https://github.com/bstaruk/bstar",
   "repository": "github:bstaruk/bstar",
@@ -16,10 +18,11 @@
     "build": "webpack --config ./lib/webpack.config.js --mode production"
   },
   "devDependencies": {
-    "babel-core": "^6.26.3",
-    "babel-eslint": "^8.2.6",
-    "babel-loader": "^7.1.5",
-    "babel-preset-env": "^1.7.0",
+    "@babel/cli": "^7.2.0",
+    "@babel/core": "^7.2.2",
+    "@babel/preset-env": "^7.2.0",
+    "babel-eslint": "^10.0.1",
+    "babel-loader": "^8.0.4",
     "eslint": "^5.6.0",
     "eslint-config-airbnb": "^17.1.0",
     "eslint-loader": "^2.1.0",
