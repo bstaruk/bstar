@@ -8,8 +8,8 @@ Takes an object, loops through it, and returns `true` if any value in it is `nul
 import HasNull from 'bstar.hasnull';
 
 const ui = {
-  closeButtons: document.getElementsByClassName('button--close'),
-  openButtons: document.getElementsByClassName('button--open')
+  closeButtons: document.querySelector('.button--close'),
+  openButtons: someElement.getAttribute('data-endpoint') || null
 };
 
 if (!HasNull(ui)) {
