@@ -5,7 +5,6 @@ Object.defineProperty(exports, "__esModule", {
 });
 exports.default = void 0;
 
-// checks if any value in an object is null
 var HasNull = function HasNull(obj) {
   var objKeys = Object.keys(obj);
   var i;
